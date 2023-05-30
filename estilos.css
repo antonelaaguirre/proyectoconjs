@@ -1,0 +1,189 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ffee00;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #00aaff;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    header h1 {
+        font-family: "Arial", sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .logo-container {
+        margin-left: auto;
+    }
+    
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+    
+    
+    nav {
+        background-color: #55bbff;
+        padding: 10px;
+        
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 5px 10px;
+        font-weight: bold;
+        border: 1px solid white;
+    }
+    
+    section {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    aside {
+        background-color: #ffee00;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .content-container {
+        display: flex;
+    }
+    
+    section {
+        flex: 1;
+    }
+
+    section ul li {
+        margin-bottom: 10px;
+    }
+    
+    section ul li a {
+        display: block;
+        padding: 10px;
+        border: 1px solid #999999;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #333333;
+        font-weight: bold;
+    }
+    
+    section ul li a:hover {
+        background-color: #f2f2f2;
+    }
+    
+    .card-custom {
+        border: 2px solid #ff00ff; /* Color del borde */
+        background-color: #F1948A; /* Fondo pastel */
+    }
+    
+    .card-custom .card-title {
+        font-weight: bold; /* Texto en negrita */
+        color: #333; /* Color oscuro */
+    }
+
+    .card-custom .card-text {
+        font-weight: bold; /* Texto en negrita */
+        color: #333; /* Color oscuro */
+    }
+    
+    aside {
+        flex: 0 0 300px; /* Ajuste el ancho del aside  */
+        margin-left: 20px; /* Ajuste el margen izquierdo */
+        border: 1px solid #999999; /* Agrege el borde */
+        padding: 10px; /* Agrega un espacio interno */
+    }
+
+
+
+    .highlight-box {
+        display: flex;
+        justify-content: space-between;
+        border: 5px solid red;
+        padding: 10px;
+      }
+      
+      .color-box {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        width: 200px;
+        height: 100px;
+        border: black 2px solid;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+      
+      
+      
+    
+    @keyframes colorChange {
+        0% { background-color: white; }
+        50% { background-color: lightblue; }
+        100% { background-color: white; }
+    }
+    
+    button {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        border: 2px solid black;
+        padding: 10px 20px;
+        background-color: white;
+        animation: colorChange 2s linear infinite;
+    }
+    /* Estilos de las cards */
+    #historiasSection {
+        padding: 20px;
+        background-color: orange;
+    }
+    
+    .card {
+        border: 2px solid #ff00ff;
+        margin-bottom: 20px;
+    }
+    
+    
+
+
+
+    footer {
+        background-color: #ff9900; /*Ingrese un estilo a mis datos*/
+        padding: 10px;
+        text-align: center;
+        color: #333333;
+    }
+    
+    footer p {
+        margin: 5px;
+    }
+    
+    .developer-info {
+        font-style: italic;
+    }
+    
+    .location-info {
+        font-weight: bold;
+    }
+    
+    .contact-info {
+        font-size: 18px;
+    }
